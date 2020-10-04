@@ -1,0 +1,74 @@
+#celular{
+	position: absolute;
+	width: 169px;
+	height: 370px;
+	left: 570px;
+	top: 52px;
+	background: #3D4053;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 20px;
+	}
+
+#tela{
+	display: block;
+	position: relative;
+	width: 120px;
+	height: 85px;
+	left: 25px;
+	top: 45px;
+	background: #67856A;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	margin-bottom: 40px;
+	border-radius: 5px;
+}
+
+
+
+.botao{
+	 display: block;
+	 width:35px;
+	 height:35px;
+	 background-color:#666;
+	 border-radius: 30px;
+     margin: 5px;
+     box-shadow: 1px 1px 1px #000;
+     background-color: #C4C4C4;
+     font-size: 10px;
+     font-weight: bold;
+
+
+}
+
+.bt-enter{
+	display: block;
+	width: 100px;
+	height: 20px;
+	background-color: #19B01F;
+	box-shadow: 1px 1px 1px #000;
+  border-radius: 5px;
+  margin: 16px 0 10px 0
+}
+
+h1{
+	color: #FBEFEF;
+	position: absolute;
+	width: 68px;
+	height: 16px;
+	left:50px;
+	top: 1px;
+	font-weight: bold;
+	font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+}
+
+.row{
+  display: flex;
+  
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
